@@ -1,0 +1,34 @@
+{
+  "cats": [
+    {
+      "id": 1,
+      "breedName": "American Shorthair",
+      "image_url": "https://www.catbreedslist.com/uploads/cat-pictures/american-shorthair-2.jpg"
+    },
+    {
+      "id": 2,
+      "breedName": "Persian",
+      "image_url": "https://www.catbreedslist.com/uploads/cat-pictures/persian-cat-2.jpg"
+    },
+    {
+      "id": 3,
+      "breedName": "Maine Coon",
+      "image_url": "https://cfa.org/wp-content/uploads/2024/03/Main_Coone_SpyZoo1.jpg"
+    },
+    {
+      "id": 4,
+      "breedName": "Bengal",
+      "image_url": "https://www.catbreedslist.com/uploads/cat-pictures/bengal-2.jpg"
+    },
+    {
+      "id": 5,
+      "breedName": "Norwegian Forest Cat",
+      "image_url": "https://www.catbreedslist.com/uploads/cat-pictures/norwegian-forest-cat-2-3.jpg"
+    },
+    {
+      "id": 6,
+      "breedName": "Siberian",
+      "image_url": "https://www.catbreedslist.com/uploads/cat-pictures/siberian-2-3.jpg"
+    }
+  ]
+}
