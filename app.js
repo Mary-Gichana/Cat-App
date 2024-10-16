@@ -23,7 +23,11 @@ document.addEventListener("DOMContentLoaded", () => {
       likeIcon.classList.add("fas", "fa-heart", "like-icon");
 
       likeIcon.addEventListener("click", () => {
-        likeIcon.classList.toggle("liked");
+        if (likeIcon.classList.contains("liked")) {
+          likeIcon.classList.remove("liked");
+        } else {
+          likeIcon.classList.add("liked");
+        }
       });
 
       catCard.appendChild(likeIcon);
@@ -31,13 +35,13 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  inputBox.addEventListener("input", (e) => {
-    const searchTerm = e.target.value.toLowerCase();
+  inputBox.addEventListener("input", (event) => {
+    const searchCat = event.target.value.toLowerCase();
     fetch("http://localhost:3000/cats")
       .then((response) => response.json())
       .then((cats) => {
         const filteredCats = cats.filter((cat) =>
-          cat.breedName.toLowerCase().includes(searchTerm)
+          cat.breedName.toLowerCase().includes(searchCat)
         );
 
         displayCats(filteredCats);
