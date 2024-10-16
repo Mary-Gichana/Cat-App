@@ -14,11 +14,34 @@ document.addEventListener("DOMContentLoaded", () => {
       const catCard = document.createElement("div");
       catCard.className = "cat-card";
       catCard.innerHTML = `
-            <h3>${cat.breedName}</h3>
-            <img src="${cat.image_url}" alt="${cat.breedName}" width="200">
             
+            <img src="${cat.image_url}" alt="${cat.breedName}" width="200">
+            <p>${cat.Coat}</p>
         `;
+
+      const likeIcon = document.createElement("i");
+      likeIcon.classList.add("fas", "fa-heart", "like-icon");
+
+      likeIcon.addEventListener("click", () => {
+        likeIcon.classList.toggle("liked");
+      });
+
+      catCard.appendChild(likeIcon);
       catsDiv.appendChild(catCard);
     });
   }
+
+  inputBox.addEventListener("input", (e) => {
+    const searchTerm = e.target.value.toLowerCase();
+    fetch("http://localhost:3000/cats")
+      .then((response) => response.json())
+      .then((cats) => {
+        const filteredCats = cats.filter((cat) =>
+          cat.breedName.toLowerCase().includes(searchTerm)
+        );
+
+        displayCats(filteredCats);
+      })
+      .catch((error) => console.error("Error filtering cats:", error));
+  });
 });
