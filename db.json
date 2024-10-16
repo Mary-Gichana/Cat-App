@@ -47,6 +47,12 @@
       "breedName": "Somali",
       "image_url": "https://www.catbreedslist.com/uploads/cat-pictures/somali-2.jpg",
       "Coat": "Long Dense Silky Soft hair"
+    },
+    {
+      "id": 9,
+      "breedName": "LaPerm",
+      "image_url": "https://www.catbreedslist.com/uploads/cat-pictures/laperm-2.jpg",
+      "Coat": "Shorthair wavy soft"
     }
   ]
 }
