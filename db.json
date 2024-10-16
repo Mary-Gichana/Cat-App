@@ -3,32 +3,50 @@
     {
       "id": 1,
       "breedName": "American Shorthair",
-      "image_url": "https://www.catbreedslist.com/uploads/cat-pictures/american-shorthair-2.jpg"
+      "image_url": "https://www.catbreedslist.com/uploads/cat-pictures/american-shorthair-2.jpg",
+      "Coat": " Dense Hard Lustrous hair"
     },
     {
       "id": 2,
       "breedName": "Persian",
-      "image_url": "https://www.catbreedslist.com/uploads/cat-pictures/persian-cat-2.jpg"
+      "image_url": "https://www.catbreedslist.com/uploads/cat-pictures/persian-cat-2.jpg",
+      "Coat": "Glossy Long hair Silky"
     },
     {
       "id": 3,
       "breedName": "Maine Coon",
-      "image_url": "https://cfa.org/wp-content/uploads/2024/03/Main_Coone_SpyZoo1.jpg"
+      "image_url": "https://cfa.org/wp-content/uploads/2024/03/Main_Coone_SpyZoo1.jpg",
+      "Coat": "Longhair Light Silky Soft"
     },
     {
       "id": 4,
       "breedName": "Bengal",
-      "image_url": "https://www.catbreedslist.com/uploads/cat-pictures/bengal-2.jpg"
+      "image_url": "https://www.catbreedslist.com/uploads/cat-pictures/bengal-2.jpg",
+      "Coat": "Medium Hair"
     },
     {
       "id": 5,
       "breedName": "Norwegian Forest Cat",
-      "image_url": "https://www.catbreedslist.com/uploads/cat-pictures/norwegian-forest-cat-2-3.jpg"
+      "image_url": "https://www.catbreedslist.com/uploads/cat-pictures/norwegian-forest-cat-2-3.jpg",
+      "Coat": "Long hair Dense Silky Soft Glossy"
     },
     {
       "id": 6,
       "breedName": "Siberian",
-      "image_url": "https://www.catbreedslist.com/uploads/cat-pictures/siberian-2-3.jpg"
+      "image_url": "https://www.catbreedslist.com/uploads/cat-pictures/siberian-2-3.jpg",
+      "Coat": "Semi-long Dense Undercoat"
+    },
+    {
+      "id": 7,
+      "breedName": "Cheetoh",
+      "image_url": "https://www.catbreedslist.com/uploads/cat-pictures/cheetoh-2.jpg",
+      "Coat": "Shorthair glossy spotted"
+    },
+    {
+      "id": 8,
+      "breedName": "Somali",
+      "image_url": "https://www.catbreedslist.com/uploads/cat-pictures/somali-2.jpg",
+      "Coat": "Long Dense Silky Soft hair"
     }
   ]
 }
