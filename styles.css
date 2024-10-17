@@ -28,7 +28,7 @@ h1 {
   padding: 10px;
   margin-bottom: 10px;
   width: 250px;
-  height: 250px;
+  height: 300px;
   background-color: beige;
 }
 #cats-Div {
@@ -48,4 +48,7 @@ h1 {
 }
 li {
   margin-left: 10px;
+}
+input {
+  margin: 10px 0;
 }
