@@ -17,6 +17,13 @@ document.addEventListener("DOMContentLoaded", () => {
             
             <img src="${cat.image_url}" alt="${cat.breedName}" width="200">
             <p>${cat.Coat}</p>
+            <div>
+            <form class = "comment-Form" data.id= ${cat.id}>
+              <input type="text" placeholder="Enter your comment">
+              <button id= btn>submit</button>
+            </form>
+            <ul class="comment-list" id="comments-${cat.id}"></ul>
+            </div>
         `;
 
       const likeIcon = document.createElement("i");
