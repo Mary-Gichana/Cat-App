@@ -46,3 +46,6 @@ h1 {
 .liked {
   color: red;
 }
+li {
+  margin-left: 10px;
+}
