@@ -76,3 +76,29 @@ li {
 input {
   margin: 10px 0;
 }
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.image-container img {
+  height: 100%;
+}
+.overlay-text {
+  position: absolute;
+  top: 0;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.overlay-text h1 {
+  margin: 0;
+  margin-top: 20px;
+}
+.overlay-text p {
+  text-align: center;
+  display: block;
+  padding: 10px;
+  margin: 150px 0;
+  width: 650px;
+}
