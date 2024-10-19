@@ -31,4 +31,10 @@ To run the Cat Gallery App locally:
    npm install -g json-server
 4. Start the JSON server:
    json-server --watch db.json
-5.
+5. Open index.html in your browser to view the app or use live server.
+
+## Contact
+
+Feel free to reach out if you have any questions or feedback!
+
+Email: marygichana95@gmail.com
