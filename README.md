@@ -23,6 +23,12 @@ To run the Cat Gallery App locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/cat-gallery-app.git
+   git clone git@github.com:Mary-Gichana/Cat-App.git
    ```
-2.
+2. Navigate to the project directory:
+   cd cat-gallery-app
+3. Install JSON Server:
+   npm install -g json-server
+4. Start the JSON server:
+   json-server --watch db.json
+5.
