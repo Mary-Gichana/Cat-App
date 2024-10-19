@@ -33,8 +33,22 @@ To run the Cat Gallery App locally:
    json-server --watch db.json
 5. Open index.html in your browser to view the app or use live server.
 
+## Contibuting
+
+If you have any suggestions or any issues, feel free to reaching out by submitting pull request.
+
+1. Fork the project
+2. Create a barnch
+3. Commit your changes
+4. Push to the branch
+5. Open a pull request
+
 ## Contact
 
 Feel free to reach out if you have any questions or feedback!
 
 Email: marygichana95@gmail.com
+
+## License
+
+This project is under MIT License
