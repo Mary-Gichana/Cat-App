@@ -14,8 +14,6 @@ The Cat Gallery App is an interactive web application that allows users to explo
 
 - HTML & CSS
 - JavaScript
-- JSON & API interaction
-- DOM Manipulation
 
 ## Installation
 
