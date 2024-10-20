@@ -31,6 +31,10 @@ To run the Cat Gallery App locally:
    json-server --watch db.json
 5. Open index.html in your browser to view the app or use live server.
 
+## Live link on GitHub pages
+
+https://mary-gichana.github.io/Cat-App/
+
 ## Contibuting
 
 If you have any suggestions or any issues, feel free to reaching out by submitting pull request.
@@ -45,7 +49,7 @@ If you have any suggestions or any issues, feel free to reaching out by submitti
 
 Feel free to reach out if you have any questions or feedback!
 
-Email: marygichana95@gmail.com
+Mary Gichana: marygichana95@gmail.com
 
 ## License
 
