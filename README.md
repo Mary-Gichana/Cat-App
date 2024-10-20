@@ -10,7 +10,7 @@ The Cat Gallery App is an interactive web application that allows users to explo
 - **Like Button:** Users can click the heart icon to like or unlike their favorite cat images.
 - **Comment Section:** Users can add comments to individual cat images, which are then displayed below each cat card.
 
-## Language and tools used
+## Language used
 
 - HTML & CSS
 - JavaScript
