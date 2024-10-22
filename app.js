@@ -69,6 +69,7 @@ document.addEventListener("DOMContentLoaded", () => {
         );
 
         displayCats(filteredCats);
+        addComment();
       })
       .catch((error) => console.error("Error filtering cats:", error));
   });
