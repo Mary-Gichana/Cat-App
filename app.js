@@ -14,15 +14,14 @@ document.addEventListener("DOMContentLoaded", () => {
       const catCard = document.createElement("div");
       catCard.className = "cat-card";
       catCard.innerHTML = `
-            
             <img src="${cat.image_url}" alt="${cat.breedName}" width="200">
             <p>${cat.Coat}</p>
             <div>
-            <form class = "comment-Form" data.id= ${cat.id}>
-              <input type="text" placeholder="Enter your comment">
-              <button id= btn>submit</button>
-            </form>
-            <ul class="comment-list" id="comments-${cat.id}"></ul>
+              <form class="comment-Form" data-id="${cat.id}">
+                <input type="text" placeholder="Enter your comment">
+                <button type="submit">submit</button>
+              </form>
+              <ul class="comment-list" id="comments-${cat.id}"></ul>
             </div>
         `;
 
@@ -30,16 +29,34 @@ document.addEventListener("DOMContentLoaded", () => {
       likeIcon.classList.add("fas", "fa-heart", "like-icon");
 
       likeIcon.addEventListener("click", () => {
-        if (likeIcon.classList.contains("liked")) {
-          likeIcon.classList.remove("liked");
-        } else {
-          likeIcon.classList.add("liked");
-        }
+        likeIcon.classList.toggle("liked");
       });
 
       catCard.appendChild(likeIcon);
       catsDiv.appendChild(catCard);
     });
+
+    const commentForms = document.querySelectorAll(".comment-Form");
+    commentForms.forEach((form) => {
+      form.addEventListener("submit", (event) => {
+        event.preventDefault();
+
+        const catId = event.target.dataset.id;
+        const commentInput = event.target.querySelector("input");
+        const commentText = commentInput.value;
+        if (commentText) {
+          enterComment(catId, commentText);
+          commentInput.value = "";
+        }
+      });
+    });
+  }
+
+  function enterComment(catId, commentText) {
+    const commentList = document.getElementById(`comments-${catId}`);
+    const commentItem = document.createElement("li");
+    commentItem.textContent = commentText;
+    commentList.appendChild(commentItem);
   }
 
   inputBox.addEventListener("input", (event) => {
